@@ -11,3 +11,7 @@ Proyecto de universidad de la clase Programación Orientada a Objetos (POOB) en 
 - **[Diagrama UML](./Poobkemon.asta)** - Diseño de clases y arquitectura del sistema (Archivo Astah)
 
 > **Nota:** Para abrir el archivo .asta necesitas [Astah Community](https://astah.net/downloads/) o un visor compatible.
+
+
+
+docker run --name postgres-tarea -e POSTGRES_DB=tareasdb -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin123 -p 5432:5432 -d postgres
